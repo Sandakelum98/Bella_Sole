@@ -1,0 +1,784 @@
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	line-height: 36px;
+	color: #282828;
+	font-weight: 400;
+	margin: 0;
+}
+* {
+	background-repeat: no-repeat;
+}
+a {
+	-webkit-transition: ease-out all 0.3s;
+	-moz-transition: ease-out all 0.3s;
+	transition: ease-out all 0.3s;
+}
+a {
+	text-decoration: none;
+	display: inline-block;
+	/*color: #232323;*/
+}
+a:hover, a:active {
+	color: #3b8bc4;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+hr {
+	border-top: 1px solid #d9d9d9;
+	border-bottom: none;
+	margin: 20px 0;
+}
+h1, h3, h4, .h4, h5 {
+	margin-bottom: 0px;
+}
+h1, .h1 {
+	font-family: 'Noto Sans', sans-serif;
+    font-size: 35px;
+    line-height: 52px;
+    font-weight: 700;
+}
+h2, .h2 {
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 32px;
+	line-height: 42px;
+	font-weight: 700;
+}
+h3, .h3 {
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 24px;
+	line-height: 40px;
+	font-weight:700;
+}
+h4, .h4 {
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 22px;
+	line-height: 35px;
+	font-weight: 700;
+}
+h5, .h5 {
+	font-size: 13px;
+	line-height: 28px;
+	font-weight: 500;
+}
+h6, .h6 {
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 15px;
+	line-height: 25px;
+	font-weight: 700;
+}
+.color-blue {
+	color: #3b8bc4;
+}
+.color-black {
+	color: #232323;
+}
+.color-gray {
+	color: #3f3f3f!important;
+}
+.color-white {
+	color: #ffffff!important;
+}
+.bg-dark-blue {
+	background-color: #071a48;
+}
+.bg-white {
+	background-color: #ffffff;
+}
+.bg-gray {
+	background-color: #e8eff4;
+}
+.bg-yellow {
+	background-color: #fabb3d;
+}
+.bg-cream {
+	background-color: #f9f9f9;
+}
+.p-t-5 {
+	padding-top: 5px;
+}
+.p-b-5 {
+	padding-bottom: 5px;
+}
+.p-b-10 {
+	padding-bottom: 10px;
+}
+.p-t-10 {
+	padding-top: 10px;
+}
+.p-t-15 {
+	padding-top: 15px;
+}
+.p-b-15 {
+	padding-bottom: 15px;
+}
+.p-t-20 {
+	padding-top: 20px;
+}
+.p-b-20 {
+	padding-bottom: 20px;
+}
+.p-b-25 {
+	padding-bottom: 25px;
+}
+.p-t-30 {
+	padding-top: 30px;
+}
+.p-b-30 {
+	padding-bottom: 30px;
+}
+.p-t-40 {
+	padding-top: 40px;
+}
+.p-b-40 {
+	padding-bottom: 40px;
+}
+.p-t-50 {
+	padding-top: 50px;
+}
+.p-b-50 {
+	padding-bottom: 50px;
+}
+.p-t-60 {
+	padding-top: 60px;
+}
+.p-b-60 {
+	padding-bottom: 60px;
+}
+.p-t-70 {
+	padding-top: 70px;
+}
+.p-b-70 {
+	padding-bottom: 70px;
+}
+.p-t-80 {
+	padding-top: 80px;
+}
+.p-b-80 {
+	padding-bottom: 80px;
+}
+.p-t-100 {
+	padding-top: 100px;
+}
+.p-b-100 {
+	padding-bottom: 100px;
+}
+.p-t-110 {
+	padding-top: 110px;
+}
+.p-b-110 {
+	padding-bottom: 110px;
+}
+.p-b-0 {
+	padding-bottom: 0;
+}
+.p-t-0 {
+	padding-bottom: 0;
+}
+.no-padding {
+	padding: 0;
+}
+.btn {
+	background-color: #282828;
+	padding: 7px 30px;
+	font-size: 15px;
+	line-height: 31px;
+	color: #fff;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-family: 'Noto Sans', sans-serif;
+	display: inline-block;
+}
+.btn:hover {
+	background-color: #1d669a;
+	color: #ffffff;
+}
+.btn-yellow {
+	background-color: #fabb3d !important;
+	color: #282828 !important;
+}
+.btn-yellow:hover {
+	background-color: #282828!important;
+	color: #fff!important;
+}
+.btn-white {
+	background-color: #ffffff;
+	color: #3f3f3f!important;
+}
+.btn-white:hover {
+	color: #ffffff!important;
+}
+.inline-btn {
+	margin-right: 20px;
+}
+.btn img{
+	margin-right: 10px;
+}
+.uppercase {
+	text-transform: uppercase;
+}
+.justify{
+	text-align:justify;
+}
+.clearfix {
+	clear: both;
+}
+.no-margin {
+	margin: 0;
+}
+.font-lg {
+	font-size: 18px;
+}
+.op8 {
+	opacity: 0.8;
+}
+.mobile-only {
+	display: none;
+}
+#main {
+	overflow: hidden;
+	position: relative;
+}
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.main-title {
+	color: #3f3f3f;
+	margin-bottom: 40px;
+}
+.sub-title {
+	color: #ff0000;
+	margin-bottom: 10px !important;
+}
+
+/*HEADER*/
+header, .header {
+	font-size: 16px;
+	line-height: 32px;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	background-color: #071a48de;
+	z-index: 99;
+}
+.header a {
+	color: #ffffff;
+	font-size: 16px;
+}
+.header-logo {
+    display: inline-block;
+}
+.header-content {
+    display: inline-block;
+    float: right;
+}
+.header-content-up {
+	padding: 2px 20px 12px 20px;
+	border-bottom: 1px solid #0088e01f;
+}
+.header-phone {
+    display: inline-block;
+	margin-right: 35px;
+}
+.header-email {
+    display: inline-block;
+}
+.contact-icon {
+	color: #fabb3d;
+	margin-right: 15px;
+	font-size: 18px;
+}
+.header-content-up-right {
+	display: inline-block;
+	float: right;
+}
+.header-social-media{
+    display: inline-block;
+}
+.social-media-icon {
+	color: #ffffff;
+	padding: 5px 7px;
+	background-color: #0a1737;
+	margin-right: 8px;
+}
+.language-dropdown {
+    display: inline-block;
+	padding: 5px 10px;
+	margin-left: 25px;
+	margin-right: 0;
+}
+.language-dropdown p {
+	color: #ffffff;
+	margin-bottom: 0;
+	line-height: 0;
+	text-transform: uppercase;
+}
+.language-dropdown p i {
+	margin-left: 10px;
+}
+.header-content-down {
+	padding: 12px 0px 2px 0px;
+}
+.header-content-down ul li {
+    display: inline-block;
+}
+.header-content-down ul li a {
+	text-transform: uppercase;
+	padding: 0 20px;
+}
+/*INTRO*/
+.intro {
+	position: relative;
+}
+.intro img {
+	width: 100%;
+}
+.main-slider .item img{
+	width:100%;
+}
+.main-slider .item .slider-inner, .slider-inner{
+	padding:100px 0 30px;
+	position: absolute;
+	left:0;
+	right:0;
+	bottom:0;
+	z-index: 99;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+25,000000+100&0+1,0.69+49 */
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0) 1%, rgba(0,0,0,0.35) 25%, rgba(0,0,0,0.69) 49%, rgba(0,0,0,0.69) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 1%,rgba(0,0,0,0.35) 25%,rgba(0,0,0,0.69) 49%,rgba(0,0,0,0.69) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(0,0,0,0) 1%,rgba(0,0,0,0.35) 25%,rgba(0,0,0,0.69) 49%,rgba(0,0,0,0.69) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#b0000000',GradientType=0 ); /* IE6-9 */
+
+}
+.bx-wrapper {
+    position: relative;
+}
+.main-slider-area .bx-controls {
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+    width: 100%;
+    padding: 0 30px;
+}
+.bx-controls .bx-controls-direction a {
+    font-size: 40px;
+    padding: 5px 15px;
+    background-color: #23232357;
+    color: #ffffff;
+}
+.main-slider-area .bx-controls .bx-controls-direction a:nth-child(1) {
+    float: left;
+}
+.main-slider-area .bx-controls .bx-controls-direction a:nth-child(2) {
+    float: right;
+}
+/*ABOUT*/
+.about-container {
+    background-image: url(img/bg-about.jpg);
+    background-size: cover;
+    background-position: top left;
+    position: relative;
+	padding: 60px 125px;
+}
+
+.main-title span {
+	color: #ff0000;
+}
+.about-container p {
+	margin-bottom: 40px;
+}
+
+/*SRILANKA TOUR*/
+.tours-para {
+	margin-bottom: 45px;
+}
+.img-container {
+    position: relative;
+    height: 100%;
+    /*margin-left: 30px;*/
+}
+.img-container img:nth-child(1) {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 9;
+}
+.img-container img:nth-child(2) {
+	position: absolute;
+	bottom: -36px;
+	right: 0;
+	z-index: 99;
+}
+
+/*PACKAGES*/
+.itinerary-box {
+	box-shadow: 0 0 20px #1b1e211f;
+}
+.itinerary-detail {
+	padding: 30px;
+}
+.itinerary-detail h4 {
+	color: #3f3f3f;
+}
+.tour-days {
+	color: #ffffff;
+	background-color: #ff0000;
+	padding: 0px 20px 0 25px;
+	font-size: 13px;
+	display: inline-block;
+	margin: 20px 0px 25px 0px;
+}
+.package-detail-para {
+	margin-bottom: 35px;
+}
+.price-box {
+	display: inline-block;
+	float: right;
+	text-align: right;
+}
+.price-box-from {
+	color: #5e5e5e;
+	font-size: 15px;
+	margin-bottom: 9px;
+	line-height: 10px;
+}
+.price-box-price {
+	font-size: 23px;
+	margin: 0;
+	line-height: 20px;
+}
+
+/*RELATED SERVICE*/
+.related-service-box {
+	text-align: center;
+	padding: 30px 40px;
+	background-color: #eef2f3;
+}
+.service-title {
+	color: #3f3f3f;
+	margin: 20px 0;
+}
+.related-service-box p {
+	margin: 0;
+}
+
+/*START HOLIDAY*/
+.start-holiday {
+	background-image: url(img/bg-start-holiday.jpg);
+	background-size: cover;
+	background-position: top left;
+	position: relative;
+}
+.start-holiday .start-holiday-title {
+	font-size: 36px;
+	line-height: 60px;
+	color: #ffffff;
+	margin: 0;
+}
+.start-holiday p {
+	margin-bottom: 35px;
+}
+.start-holiday-btn {
+	width: 260px;
+	text-align: center;
+}
+.start-holiday-btn {
+	margin-right: 20px;
+}
+
+/*FOOTER*/
+footer, .footer {
+	background-image: url(img/bg-footer.jpg);
+	background-size: cover;
+	background-position: bottom left;
+	position: relative;
+	color: #b7bfc5;
+}
+.footer-widgets {
+	padding-top: 80px;
+	padding-bottom: 200px;
+}
+.footer-title {
+	font-size: 20px;
+	color: #ffffff;
+}
+.footer-social-media {
+	background-color: #445a6a !important;
+}
+.tour-service-list li {
+	margin-bottom: 10px;
+}
+.contact-box p {
+	margin-bottom: 0;
+}
+.footer-tel {
+	color: #1f88ff;
+}
+.footer-socket {
+	font-size: 16px;
+	color: #b7bfc561;
+}
+.footer-copyright {
+	display: inline-block;
+	float: left;
+}
+.footer-terms {
+	display: inline-block;
+	float: right;
+}
+.footer-terms a {
+	display: inline-block;
+	color: inherit;
+}
+.footer-terms span {
+	display: inline-block;
+	margin: 0 15px;
+}
+
+/*SRILANKA PAGE*/
+.map {
+	margin: auto;
+	width: fit-content;
+}
+
+.location-desc-box p {
+	margin: 0;
+	padding-bottom: 30px;
+}
+.learn-more {
+	color: #0088e0;
+	border-bottom: dashed 1px #0088e0;
+	margin-bottom: 30px;
+}
+
+/*LOCATION PAGE*/
+.location-slider-area .bx-controls {
+	position: absolute;
+	bottom: 18px;
+	right: 25px;
+	/*width: 100%;*/
+	/*padding: 0 30px;*/
+}
+.location-slider-area .bx-controls .bx-controls-direction a:nth-child(1) {
+	margin-right: 10px;
+}
+
+/*ITINERARY PAGE*/
+.itinerary-slider-inner {
+	padding:100px 0 10px 10px;
+	position: absolute;
+	left:0;
+	right:0;
+	bottom:0;
+	z-index: 99;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e5e5e5+0,052941+67&0+0,1+99 */
+	background: -moz-linear-gradient(top,  rgba(229,229,229,0) 0%, rgba(5,41,65,0.68) 67%, rgba(5,41,65,1) 99%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(229,229,229,0) 0%,rgba(5,41,65,0.68) 67%,rgba(5,41,65,1) 99%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(229,229,229,0) 0%,rgba(5,41,65,0.68) 67%,rgba(5,41,65,1) 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00e5e5e5', endColorstr='#052941',GradientType=0 ); /* IE6-9 */
+
+}
+.itinerary-slider-inner-text{
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 18px;
+	padding: 20px;
+	background-color: #00000069;
+	display: inline-block;
+}
+.intro-location-list {
+	padding: 15px 15px;
+}
+.intro-location-list ul li {
+	display: inline-block;
+}
+.intro-location-list ul li:after {
+	content: "-";
+	padding: 0 9px 0 11px;
+}
+.intro-location-list ul li:last-child:after {
+	content: "";
+}
+.intro-location-list ul li a {
+	color: #3f3f3f;
+}
+
+.itinerary-feat-list li:before {
+	content: "\f005";
+	font-family: 'Fontawesome';
+	color: #ff0000;
+	padding-right: 15px;
+}
+
+.package-price-container {
+	padding: 30px 40px;
+}
+.package-name {
+	display: inline-block;
+	float: left;
+	margin-right: 90px;
+}
+.package-price-box {
+	display: inline-block;
+}
+.package-price-from {
+	margin: 0;
+	line-height: 35px;
+}
+.package-price {
+	margin: 0;
+	line-height: 38px;
+}
+.package-price span {
+	font-size: 16px;
+}
+.package-price-btn {
+	display: inline-block;
+	float: right;
+	padding-top: 18px;
+}
+
+.itineraries {
+	padding: 50px 18px;
+	box-shadow: 0 0 20px #1b1e211f;
+}
+.itinerary {
+	padding-bottom: 50px;
+}
+.itinerary:last-child {
+	padding-bottom: 0px;
+}
+.itinerary-img-box {
+	width: fit-content;
+	margin: auto;
+}
+.itinerary-title {
+	padding-bottom: 20px;
+	font-weight: 600;
+}
+.itinerary-title span {
+	color: #ff0000;
+	text-transform: uppercase;
+}
+.itinerary-para {
+	padding-bottom: 17px;
+	margin: 0;
+}
+.itinerary-para a {
+	color: #ff0000;
+}
+.itinerary-highlight {
+	font-weight: 600;
+}
+.itinerary-highlight:before {
+	content: "\f005";
+	font-family: 'Fontawesome';
+	color: #ff0000;
+	padding-right: 15px;
+}
+
+.inclutions li {
+	padding-bottom: 20px;
+}
+.inclutions li:last-child {
+	padding-bottom: 0;
+}
+.inclutions-list li:before {
+	content: url("img/icon-correct.png");
+	margin-right: 10px;
+}
+.exclutions-list li:before {
+	content: url("img/icon-incorrect.png");
+	margin-right: 10px;
+}
+.tour-inclutions, .tour-exclutions {
+	padding-left: 25px;
+}
+
+/*page destinations*/
+.destination {
+	padding-bottom: 135px;
+}
+.destination-about-container {
+	padding: 0 100px;
+}
+.destination-asia-box {
+	background-image: url(img/destination-asia-img.jpg);
+	width: 100%;
+	height: 627px;
+	position: relative;
+}
+.destination-europe-box {
+	background-image: url(img/destination-europe-img.jpg);
+	width: 100%;
+	height: 298px;
+	position: relative;
+}
+.destination-africa-box {
+	background-image: url(img/destination-afrika-img.jpg);
+	width: 100%;
+	height: 298px;
+	position: relative;
+}
+.destination-australia-box {
+	background-image: url(img/destination-australia-img.jpg);
+	width: 100%;
+	height: 298px;
+	position: relative;
+}
+.destination-america-box {
+	background-image: url(img/destination-america-img.jpg);
+	width: 100%;
+	height: 298px;
+	position: relative;
+}
+.destination-box-inner {
+	font-size: 24px;
+	font-weight: 700;
+	text-shadow: 2px 4px #00000026;
+	text-transform: uppercase;
+	text-align: center;
+	color: #ffffff;
+	padding-top: 24px;
+}
+
+/*page-destination-asia*/
+.destination-details-box {
+	/*height: 296px;*/
+	/*background-color: red;*/
+	position: relative;
+}
+.destination-details-inner {
+	padding: 0 30px 16px 25px;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+}
+.destination-details-inner p {
+	display: inline-block;
+	margin: 0;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+.destination-details-inner-left {
+	font-size: 24px;
+	font-weight: 700;
+}
+.destination-details-inner-right {
+	float: right;
+	font-size: 16px;
+	font-weight: 700;
+}
+.destination-srilanka-box {
+	background-image: url("img/destination-asia-srilanka.jpg");
+}
+.destination-maldives-box {
+	background-image: url("img/destination-asia-maldives.jpg");
+}
+.destination-india-box{
+	background-image: url("img/destination-asia-india.jpg");
+}
